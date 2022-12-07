@@ -1,0 +1,9 @@
+target/
+.idea
+report/
+reports/
+
+*.iml
+*.class
+*.classpath
+.DS_Store
