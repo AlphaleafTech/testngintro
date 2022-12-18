@@ -57,6 +57,12 @@
                     <suiteXmlFiles>
                         <xmlFile>testng.xml</xmlFile>
                     </suiteXmlFiles>
+                    <properties>
+                        <property>
+                            <name>testnames</name>
+                            <value>${cycle}</value>
+                        </property>
+                    </properties>
                 </configuration>
             </plugin>
         </plugins>

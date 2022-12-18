@@ -2,23 +2,23 @@ package tests;
 
 import org.testng.annotations.Test;
 
-public class AccountTest {
+public class Account {
 
     @Test
     public void verifyChangeUserName() {
         System.out.println(">");
-        System.out.println("Executing AccountTest.verifyChangeUserName()");
+        System.out.println("Executing Account.verifyChangeUserName()");
     }
 
     @Test
     public void verifyAccountDeletion() {
         System.out.println(">");
-        System.out.println("Executing AccountTest.verifyAccountDeletion()");
+        System.out.println("Executing Account.verifyAccountDeletion()");
     }
 
     @Test
     public void verifyUserInfoUpdate() {
         System.out.println(">");
-        System.out.println("Executing AccountTest.verifyUserInfoUpdate()");
+        System.out.println("Executing Account.verifyUserInfoUpdate()");
     }
 }//end:class

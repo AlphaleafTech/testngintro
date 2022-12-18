@@ -6,14 +6,14 @@
     <test name="smoke">
         <classes>
             <!-- first class -->
-            <class name="tests.AccountTest">
+            <class name="tests.Account">
                 <methods>
                     <include name="verifyUserInfoUpdate"/>
                     <include name="verifyAccountDeletion"/>
                 </methods>
             </class>
             <!-- second class -->
-            <class name="tests.CheckoutModuleTest">
+            <class name="tests.CheckoutModule">
                 <methods>
                     <include name="verifyUserCanCheckout"/>
                 </methods>
@@ -21,5 +21,23 @@
         </classes>
     </test>
 
+    <test name="reg">
+        <classes>
+            <class name="tests.LoginModule"/>
 
+            <class name="tests.CheckoutModule">
+                <methods>
+                    <include name="verifyItemTotal"/>
+                </methods>
+            </class>
+        </classes>
+    </test>
+
+    <test name="all">
+        <classes>
+            <class name="tests.Account"/>
+            <class name="tests.CheckoutModule"/>
+            <class name="tests.LoginModule"/>
+        </classes>
+    </test>
 </suite>
